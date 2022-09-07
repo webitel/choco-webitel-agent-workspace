@@ -25,7 +25,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>webitel-agent-workspace (Install)</title>
     <authors>Ihor Navrotskyy, Pavlo Voroniak</authors>
     <projectUrl>https://docs.webitel.com/display/WbtlDocEn</projectUrl>
-    <iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/webitel-agent-workspace.png</iconUrl>
+    <iconUrl>https://releases.webitel.com/ico.png</iconUrl>
     <copyright>Webitel</copyright>
     <licenseUrl>https://docs.webitel.com/display/PHONE/Privacy+Policy</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -33,7 +33,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://my.webitel.com/servicedesk/customer/portals</bugTrackerUrl>
-    <tags>webitel-agent-workspace 1.2.5</tags>
+    <tags>webitel-agent-workspace voip sip webrtc</tags>
     <summary>Webitel Agent Workspace</summary>
     <description>Webitel Agent Workspace</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
