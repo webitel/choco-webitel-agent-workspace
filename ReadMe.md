@@ -131,3 +131,10 @@ The following are experimental or use not recommended:
  * https_proxy - Set by original `https_proxy` passthrough, or same as `ChocolateyProxyLocation` if explicitly set. (0.10.4+)
  * no_proxy- Set by original `no_proxy` passthrough, or same as `ChocolateyProxyBypassList` if explicitly set. (0.10.4+)
 
+
+#### My install
+
+    shasum -a256 webitel.msi
+    choco pack
+    choco apikey -k [API_KEY_HERE] -source https://push.chocolatey.org/
+    choco push webitel-agent-workspace.1.2.5.nupkg -s https://push.chocolatey.org/
